@@ -1,0 +1,18 @@
+#app {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    padding: 20px 0;
+}
+
+
+@media screen and (max-width: 445px) {
+    #app,
+    .btn,
+    .table td, .table th {
+        padding: 0;
+    }
+}
